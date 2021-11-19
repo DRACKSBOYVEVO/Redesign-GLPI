@@ -384,7 +384,7 @@
                 <div class="container-fluid">
                     <button type="button" class="btn btn-warning mb-4" data-bs-toggle="modal" data-bs-target="#modalnewmarker"><i class="fas fa-star"></i> Nuevo marcador</button>
                     <button type="button" class="btn btn-warning mb-4" data-bs-toggle="modal" data-bs-target="#modaltemplate"><i class="fas fa-address-card"></i> Planilla</button>
-                    <button type="button" class="btn btn-secondary mb-4" data-bs-toggle="modal" data-bs-target="#modalnewmarker"><i class="fas fa-tree"></i> Estructura de árbol</button>
+                    <button type="button" class="btn btn-secondary mb-4" data-bs-toggle="modal" data-bs-target="#modaltree"><i class="fas fa-tree"></i> Estructura de árbol</button>
                 </div>
                 
                 <!-- Begin Page Content -->
@@ -657,6 +657,7 @@
                                     <th><a class="collapse-item" style="text-decoration: none;" href="#">Presupuestos</a></th>
                                     <th><a class="collapse-item" style="text-decoration: none;" href="#">Projects</a></th>
                                     <th><a class="collapse-item" style="text-decoration: none;" href="#">Usuarios</a></th>
+                                    <th><a class="collapse-item" style="text-decoration: none;" href="#">Menús desplegables</a></th>
                                 </tr>
                                 <tr>
                                     <th><a class="collapse-item" style="text-decoration: none;" href="../Redesign-GLPI/Layouts/Monitores.html">Monitores</a></th>
@@ -664,6 +665,7 @@
                                     <th><a class="collapse-item" style="text-decoration: none;" href="#">Proveedores</a></th>
                                     <th><a class="collapse-item" style="text-decoration: none;" href="#">Recordatorios</a></th>
                                     <th><a class="collapse-item" style="text-decoration: none;" href="#">Grupos</a></th>
+                                    <th><a class="collapse-item" style="text-decoration: none;" href="#">Componentes</a></th>
                                 </tr>
                                 <tr>
                                     <th><a class="collapse-item" style="text-decoration: none;" href="../Redesign-GLPI/Layouts/Software.html">Software</a></th>
@@ -671,6 +673,7 @@
                                     <th><a class="collapse-item" style="text-decoration: none;" href="#">Contactos</a></th>
                                     <th><a class="collapse-item" style="text-decoration: none;" href="#">RSS feeds</a></th>
                                     <th><a class="collapse-item" style="text-decoration: none;" href="#">Entidades</a></th>
+                                    <th><a class="collapse-item" style="text-decoration: none;" href="#">Notificaciones</a></th>
                                 </tr>
                                 <tr>
                                     <th><a class="collapse-item" style="text-decoration: none;" href="../Redesign-GLPI/Layouts/EquipoDeRed.html">Equipo de red</a></th>
@@ -678,6 +681,7 @@
                                     <th><a class="collapse-item" style="text-decoration: none;" href="#">Contratos</a></th>
                                     <th><a class="collapse-item" style="text-decoration: none;" href="#">Base de conocimiento</a></th>
                                     <th><a class="collapse-item" style="text-decoration: none;" href="#">Reglas</a></th>
+                                    <th><a class="collapse-item" style="text-decoration: none;" href="#">ANS (Nivel de servicio)</a></th>
                                 </tr>
                                 <tr>
                                     <th><a class="collapse-item" style="text-decoration: none;" href="../Redesign-GLPI/Layouts/Dispositivos.html">Dispositivos</a></th>
@@ -685,6 +689,7 @@
                                     <th><a class="collapse-item" style="text-decoration: none;" href="#">Documentos</a></th>
                                     <th><a class="collapse-item" style="text-decoration: none;" href="#">Reservas</a></th>
                                     <th><a class="collapse-item" style="text-decoration: none;" href="#">Diccionarios</a></th>
+                                    <th><a class="collapse-item" style="text-decoration: none;" href="#">General</a></th>
                                 </tr>
                                 <tr>
                                     <th><a class="collapse-item" style="text-decoration: none;" href="../Redesign-GLPI/Layouts/Impresoras.html">Impresoras</a></th>
@@ -692,6 +697,7 @@
                                     <th></th>
                                     <th><a class="collapse-item" style="text-decoration: none;" href="#">Reportes</a></th>
                                     <th><a class="collapse-item" style="text-decoration: none;" href="#">Perfiles</a></th>
+                                    <th><a class="collapse-item" style="text-decoration: none;" href="#">Selecciones</a></th>
                                 </tr>
                                 <tr>
                                     <th><a class="collapse-item" style="text-decoration: none;" href="../Redesign-GLPI/Layouts/Cartuchos.html">Cartuchos</a></th>
@@ -699,6 +705,7 @@
                                     <th></th>
                                     <th></th>
                                     <th><a class="collapse-item" style="text-decoration: none;" href="#">Mail queue</a></th>
+                                    <th><a class="collapse-item" style="text-decoration: none;" href="#">Acciones automáticas</a></th>
                                 </tr>
                                 <tr>
                                     <th><a class="collapse-item" style="text-decoration: none;" href="../Redesign-GLPI/Layouts/Consumibles.html">Consumibles</a></th>
@@ -706,6 +713,7 @@
                                     <th></th>
                                     <th></th>
                                     <th><a class="collapse-item" style="text-decoration: none;" href="#">Mantenimiento</a></th>
+                                    <th><a class="collapse-item" style="text-decoration: none;" href="#">Autenticación</a></th>
                                 </tr>
                                 <tr>
                                     <th><a class="collapse-item" style="text-decoration: none;" href="../Redesign-GLPI/Layouts/Telefonos.html">Teléfonos</a></th>
@@ -713,13 +721,58 @@
                                     <th></th>
                                     <th></th>
                                     <th><a class="collapse-item" style="text-decoration: none;" href="#">Logs</a></th>
+                                    <th><a class="collapse-item" style="text-decoration: none;" href="#">Receptores</a></th>
                                 </tr>
                                 <tr>
                                     <th><a class="collapse-item" style="text-decoration: none;" href="../Redesign-GLPI/Layouts/Global.html">Global</a></th>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                    <th><a class="collapse-item" style="text-decoration: none;" href="#">Enlaces Externos</a></th>
+                                </tr>
+                                <tr>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                    <th><a class="collapse-item" style="text-decoration: none;" href="#">Plugins</a></th>
                                 </tr>
                             </tr>
                         </tbody>
                     </table>
+                </div>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-primary">Aceptar</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+    <!-- Ventana con estructura de arbol de archivos -->
+    <div class="modal fade" id="modaltree" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Selecciona y despiega tus <strong>carpetas de una forma facíl</strong></h5>
+            <button type="button" class="btn btn-secundary" data-bs-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="modal-body">
+                <!-- Section bottons main -->
+                <div class="container-fluid">
+                    <h3>Seleccionar la entidad deseada</h3>
+                    <h2>(  <i class="fas fa-angle-double-down"></i> para ver la entidad y sus subentidades)</h2>
+                    <button type="button" class="btn btn-primary mb-4"> Ver todas</button>
+                    <form class="d-flex mb-4">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-primary" type="submit">Search</button>
+                    </form>
+                    <a class="collapse-item-secundary" style="text-decoration: none;" href="#"><i class="far fa-plus-square"></i></a>
+                    <a class="collapse-item" style="text-decoration: none;" href="#"><i class="fas fa-folder"></i> Carpeta raíz</a>
                 </div>
             </div>
             <div class="modal-footer">
